@@ -16,7 +16,7 @@ export default function Footer() {
           
           <img src={whats} alt="" />
         </a>
-        <a href="">
+        <a href="#">
           
           <img src={youtube} alt="" />
         </a>

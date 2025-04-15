@@ -1,8 +1,14 @@
 import { Fragment } from "react"
 
+<<<<<<< HEAD
 export default function Alert (props) {
 
     // console.log(props)
+=======
+export default function (props) {
+
+    console.log(props)
+>>>>>>> ba346f972aba7f4e66a913dacf6c56cfba6bbf5e
     return (
         <Fragment>
             <div style={{
@@ -17,7 +23,11 @@ export default function Alert (props) {
             }>
                 {props.children}
             </div>
+<<<<<<< HEAD
             
+=======
+            <div></div>
+>>>>>>> ba346f972aba7f4e66a913dacf6c56cfba6bbf5e
         </Fragment>
     )
 

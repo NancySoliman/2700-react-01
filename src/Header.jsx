@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Button } from "./components/Buttons";
 import logo from "./assets/logo.png";
 
@@ -33,3 +34,23 @@ export default function Header() {
     </header>
   );
 }
+=======
+import Button from './Buttons';
+
+export default function Header() {
+
+    const appName = 'The Company'
+
+    return (
+        <header>
+            <h1>{appName}</h1>
+
+
+            <div>
+                <Button text='Subscripe'></Button>
+                <Button text='Register Now'></Button>
+            </div>
+        </header>
+    );
+}
+>>>>>>> ba346f972aba7f4e66a913dacf6c56cfba6bbf5e
